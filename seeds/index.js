@@ -40,12 +40,12 @@ const seedDB = async () => {
             },
             images: [
                 {
-                    url: 'https://res.cloudinary.com/douqbebwk/image/upload/v1600060601/YelpCamp/ahfnenvca4tha00h2ubt.png',
-                    filename: 'YelpCamp/ahfnenvca4tha00h2ubt'
+                    url: 'https://res.cloudinary.com/djnra69ea/image/upload/v1616440180/YelpCamp/fbbxd90dgbukfmpw4yvr.jpg',
+                    filename: 'YelpCamp/fbbxd90dgbukfmpw4yvr'
                 },
                 {
-                    url: 'https://res.cloudinary.com/douqbebwk/image/upload/v1600060601/YelpCamp/ruyoaxgf72nzpi4y6cdi.png',
-                    filename: 'YelpCamp/ruyoaxgf72nzpi4y6cdi'
+                    url: 'https://res.cloudinary.com/djnra69ea/image/upload/v1616184083/YelpCamp/qpysaszbk1lq7myxydsm.jpg',
+                    filename: 'YelpCamp/qpysaszbk1lq7myxydsm'
                 }
             ]
         })
@@ -56,3 +56,4 @@ const seedDB = async () => {
 seedDB().then(() => {
     mongoose.connection.close();
 })
+
